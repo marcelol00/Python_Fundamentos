@@ -16,9 +16,21 @@ class Rocket():
     def print_rocket(self):
         print(self.x, self.y)
 
+roc1 = Rocket(2,34)
+tipo=str(type(roc1))
+print("Rocket " + tipo)
+
+print(roc1.x)
+print(roc1.y)
+
+roc1.move_rocket()
+roc1.print_rocket
+
 # Exercício 2 - Crie uma classe chamada Pessoa() com os atributos: nome, cidade, telefone e e-mail. Use pelo menos 2
 # métodos especiais na sua classe. Crie um objeto da sua classe e faça uma chamada a pelo menos um dos seus métodos
 # especiais.
+
+
 
 # Exercício 3 - Crie a classe Smartphone com 2 atributos, tamanho e interface e crie a classe MP3Player com os 
 # atributos capacidade. A classe MP3player deve herdar os atributos da classe Smartphone.
